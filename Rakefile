@@ -28,7 +28,7 @@ Dir['tasks/**/*.rake'].each { |t| load t }
 
 
 namespace :j do
-  
+  desc "Installing without SUDO"
   task :install => [:manifest, :clean, :package] do
     `gem install --local pkg/cool_extensions-0.0.1.gem `
   end
