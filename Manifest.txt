@@ -3,9 +3,14 @@ Manifest.txt
 PostInstall.txt
 README.rdoc
 Rakefile
+cool_extensions.gemspec
 lib/cool_extensions.rb
+lib/cool_extensions/array.rb
+lib/cool_extensions/enumerable.rb
+lib/cool_extensions/hash.rb
 script/console
 script/destroy
 script/generate
+test/test_array_extensions.rb
 test/test_cool_extensions.rb
 test/test_helper.rb
