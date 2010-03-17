@@ -12,7 +12,8 @@ class Object
 
     # reset lines
     reset = cr + clear
-    puts reset+string
+    print "#{reset}#{string}"
+    $stdout.flush
     
   end
 end

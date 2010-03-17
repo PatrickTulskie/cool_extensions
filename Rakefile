@@ -25,3 +25,12 @@ Dir['tasks/**/*.rake'].each { |t| load t }
 # TODO - want other tests/tasks run by default? Add them to the list
 # remove_task :default
 # task :default => [:spec, :features]
+
+
+namespace :j do
+  
+  task :install => [:manifest, :clean, :package] do
+    `gem install --local pkg/cool_extensions-0.0.1.gem `
+  end
+end
+    

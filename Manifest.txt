@@ -8,9 +8,11 @@ lib/cool_extensions.rb
 lib/cool_extensions/array.rb
 lib/cool_extensions/enumerable.rb
 lib/cool_extensions/hash.rb
+lib/cool_extensions/object.rb
 script/console
 script/destroy
 script/generate
+test/jtest.rb
 test/test_array_extensions.rb
 test/test_cool_extensions.rb
 test/test_helper.rb
